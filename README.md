@@ -1,6 +1,6 @@
 # Kondo Pomodoro
 
-## a simple pomodoro time bot
+## a simple pomodoro time bot for slack
 
 ### Actions list
 
