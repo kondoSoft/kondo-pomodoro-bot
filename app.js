@@ -5,8 +5,8 @@ const pomodoroTimer = new Pomodoro()
 var isCounting = false
 
 const bot = new SlackBot({
-  token: 'xoxb-286070656550-XoUAgimPisrBcB6TxGw6v5XX',
-  name: 'Kondo Pomodoro'
+  token: 'YOUR-TOKEN-ID',
+  name: 'My Bot'
 })
 
 bot.on('message', function (e) {

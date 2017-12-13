@@ -26,3 +26,17 @@ command: total
 Action: Reset pomodoro count
 command: reset count
 ```
+
+#### Instructions
+
+1. clone or download repository
+2. in repository directory execute `npm install`
+3. go to `app.js` file and change this lines:
+```
+const bot = new SlackBot({
+  token: 'YOUR-TOKEN-ID',  // Add a bot https://my.slack.com/services/new/bot and put the token
+  name: 'My Bot'
+})
+```
+5. create Channel named pomodoro and add app to channel
+6. npm start
