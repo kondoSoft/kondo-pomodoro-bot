@@ -1,7 +1,7 @@
 const SlackBot = require('slackbots')
 const Pomodoro = require('./lib/pomodoro')
-
 const pomodoroTimer = new Pomodoro()
+
 var isCounting = false
 
 const bot = new SlackBot({
